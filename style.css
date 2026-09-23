@@ -1,7 +1,7 @@
 :root {
-  --bg-principal: #0b0c10;       /* Fundo quase preto, super profundo */
-  --bg-header: rgba(31, 27, 36, 0.7); /* Fundo do header levemente transparente */
-  --texto-normal: #c5c6c7;      /* Cinza claro fosco (ótimo para leitura) */
+  --bg-principal: #0b0c10;        
+  --bg-header: rgba(31, 27, 36, 0.7); 
+  --texto-normal: #c5c6c7;     
   --destaque-verde: #00ff66;    /* Verde neon vibrante para interações */
   --destaque-hover: #90ee90;    /* Verde suave para o hover */
 }
@@ -79,7 +79,8 @@ color: #c5c6c7;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  min-height: 80vh;
+    min-height: 80vh;
+
 }
 
 .texto-principal {
@@ -105,6 +106,7 @@ color: #c5c6c7;
 line-height: 1.2;
 right: 35px;
 top: -45px;
+letter-spacing: 2px;
 }
 
 .subtitulo .astra{
@@ -546,4 +548,8 @@ top: -2.2rem;
   .social-card {
     justify-content: center;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
